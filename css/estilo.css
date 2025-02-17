@@ -22,9 +22,10 @@ header{
 nav ul{
     list-style: none;
     display:flex;
+    gap:20px;
 }
-nav li:not(:last-child){
-    margin-right: 20px;
+nav a{
+    text-decoration: none;
 }
 .contenido{
     width:900px;
